@@ -66,7 +66,7 @@ function App() {
 
                 <img src={logo} alt="Logo" className="logo" />
 
-                <h2>Valide si su usuario existe</h2>
+                <h2>Valide los usuarios de Active Directory</h2>
 
                 <div className="form-group">
                     <input
