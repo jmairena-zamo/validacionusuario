@@ -37,7 +37,7 @@ function App() {
                     
                     if (resultadoUsuario.exists === "SI") {
                         setIsSuccess(true);
-                        setResultMessage(`El usuario existe, es valido y pertenece al codigo ${resultadoUsuario.codigo}`);
+                        setResultMessage(`El usuario existe, es válido y pertenece al código ${resultadoUsuario.codigo}`);
                     } else {
                         setIsSuccess(false);
                         setResultMessage("El usuario no existe.");
